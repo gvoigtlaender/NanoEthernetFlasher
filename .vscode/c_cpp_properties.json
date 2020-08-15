@@ -1,0 +1,66 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/georgv/github/NanoEthernetFlasher/include",
+                "/home/georgv/github/NanoEthernetFlasher/src",
+                "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/georgv/github/NanoEthernetFlasher/.pio/libdeps/nanoatmega328/UIPEthernet",
+                "/home/georgv/github/NanoEthernetFlasher/.pio/libdeps/nanoatmega328/UIPEthernet/utility",
+                "/home/georgv/github/NanoEthernetFlasher/.pio/libdeps/nanoatmega328/Ethernet_ID872/src",
+                "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/georgv/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/georgv/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/georgv/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/georgv/github/NanoEthernetFlasher/include",
+                    "/home/georgv/github/NanoEthernetFlasher/src",
+                    "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/georgv/github/NanoEthernetFlasher/.pio/libdeps/nanoatmega328/UIPEthernet",
+                    "/home/georgv/github/NanoEthernetFlasher/.pio/libdeps/nanoatmega328/UIPEthernet/utility",
+                    "/home/georgv/github/NanoEthernetFlasher/.pio/libdeps/nanoatmega328/Ethernet_ID872/src",
+                    "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/georgv/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/georgv/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/georgv/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/georgv/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40304",
+                "ARDUINO_AVR_NANO",
+                "USE_ENC28J60=0",
+                "USE_W5500=1",
+                "_LOG_DEBUG=0",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/georgv/.platformio/packages/toolchain-atmelavr@1.50400.190710/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
